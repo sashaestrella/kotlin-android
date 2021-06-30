@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    tools:context=".Card">
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="30-06-2021"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:textColorLink="@color/gray"/>
+    <TextView
+        android:id="@+id/valorTranferencia"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="$7000"
+        android:paddingLeft="15dp"
+        android:paddingTop="40dp"
+        android:textSize="25dp"
+        android:textColor="@color/greenValor"/>
+    <TextView
+        android:id="@+id/cantTranferencias"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Tranferencias: 1"
+        android:paddingLeft="15dp"
+        android:paddingTop="80dp"
+        android:textSize="15dp"
+        android:textColor="@color/greenValor"/>
+    <TextView
+        android:id="@+id/verDetalles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Ver detalle"
+        android:gravity="right"
+        android:paddingRight="15dp"
+        android:paddingTop="80dp"
+        android:textSize="14dp"
+        android:textColor="@color/green"/>
+</RelativeLayout>
+
